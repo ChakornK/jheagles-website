@@ -131,6 +131,7 @@ document.getElementById("download").addEventListener("click", () => {
 	setTimeout(() => {
 		document.getElementById("download").style.display = "none";
 		document.getElementById("download-thanks").style.display = "";
+		location.href = "https://github.com/ChakornK/jheagles-react-native/releases/download/v1.0.0/jh-eagles-v1.0.0.apk";
 	}, 1300);
 	setTimeout(() => {
 		document.getElementById("download-thanks").style.opacity = "1";
