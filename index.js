@@ -180,7 +180,6 @@ document.head.appendChild(scrollStyle);
 const scrollElements = document.querySelectorAll("#main *");
 window.addEventListener("scroll", () => {
 	throttle(() => {
-		console.log("eee");
 		scrollElements.forEach((el) => {
 			if (elementInView(el, 100)) {
 				el.classList.add("scrolled");
