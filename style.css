@@ -158,6 +158,11 @@ html {
 	color: #fff;
 	transition: 0.3s all;
 }
+@media screen and (max-width: 600px) {
+	#nav {
+		display: none !important;
+	}
+}
 #nav-inner {
 	width: 100%;
 	height: 100%;
