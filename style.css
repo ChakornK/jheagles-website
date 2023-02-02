@@ -223,7 +223,6 @@ html {
 	color: white;
 	display: flex;
 	flex-direction: row;
-	overflow: hidden;
 }
 #cover-content > div {
 	z-index: 9999;
