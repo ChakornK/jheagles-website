@@ -215,7 +215,7 @@ html {
 	position: absolute;
 	top: 0;
 	left: 0;
-	margin: 100px 0 0 50px;
+	margin-top: 100px;
 	width: 100vw;
 	height: 100vh;
 	z-index: 1;
@@ -223,6 +223,10 @@ html {
 	color: white;
 	display: flex;
 	flex-direction: row;
+}
+#cover-content > div {
+	z-index: 9999;
+	margin-left: 50px;
 }
 #cover-content h1 {
 	font-weight: 400;
