@@ -112,8 +112,7 @@ input:checked + .slider:before {
 	transform: translateX(32px);
 }
 
-body,
-html {
+body {
 	margin: 0;
 	overflow-x: hidden;
 	background-color: var(--background);
