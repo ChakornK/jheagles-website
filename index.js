@@ -1,5 +1,5 @@
 setTimeout(() => {
-	document.querySelector("html").style.scrollBehavior = "smooth";
+	document.querySelector("html").setAttribute("style", "overflow-x: hidden; scroll-behavior: smooth;");
 }, 100);
 window.addEventListener("scroll", () => {
 	let scroll = this.scrollY;
