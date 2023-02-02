@@ -1,5 +1,6 @@
 .img-carousel {
 	transition: opacity 0.4s;
+	overflow: hidden;
 }
 
 .coverflow {
