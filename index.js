@@ -131,7 +131,7 @@ document.getElementById("download").addEventListener("click", () => {
 	setTimeout(() => {
 		document.getElementById("download").style.display = "none";
 		document.getElementById("download-thanks").style.display = "";
-		location.href = "https://github.com/ChakornK/jh-eagles/releases/download/v2.0.1/jh-eagles-v2.0.1.apk";
+		location.href = "https://github.com/ChakornK/jh-eagles/releases/download/v2.1.3/jh-eagles-v2.1.3.apk";
 	}, 1300);
 	setTimeout(() => {
 		document.getElementById("download-thanks").style.opacity = "1";
